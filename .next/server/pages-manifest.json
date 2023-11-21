@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/agriculture": "pages/agriculture.js",
+  "/": "pages/index.js",
+  "/fuzhio-covid-response": "pages/fuzhio-covid-response.js",
+  "/blog": "pages/blog.js",
+  "/noble-plastic": "pages/noble-plastic.js"
+}

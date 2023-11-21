@@ -1,0 +1,239 @@
+@media (min-width: 1200px)
+{
+.container {
+    max-width: 1240px !important;
+}
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+      src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+  
+  @font-face {
+      font-family: 'Dosis Regular';
+      src: url('/public/fonts/Dosis/static/Dosis-Regular.ttf') format('truetype');
+  }
+  
+  @font-face{
+    font-family: 'Poppins SemiBold';
+    src: url('/fonts/Poppins/Poppins-SemiBold.ttf')
+  }
+  
+  @font-face{
+    font-family: 'Poppins Regular';
+    src: url('/fonts/Poppins/Poppins-Regular.ttf')
+  }
+  
+  body {
+    font-family: 'Lato Regular', sans-serif !important;
+    /* color: white !important; */
+  }
+  
+  * {
+    body {
+      font-family: 'Lato Regular', sans-serif;
+    }
+  }
+  
+  
+  .banner-font {
+    font-size: 90px !important;
+  }
+  
+  .dosis-regular {
+    font-family: 'Dosis Regular';
+  }
+  
+  .lato-regular {
+    font-family: 'Lato Regular';
+  }
+  
+  .poppins-bold {
+    font-family: 'Poppins SemiBold';
+  }
+  
+  .poppins-regular {
+    font-family : 'Poppins Regular';
+  }
+
+
+  @media(max-width:767px) {
+    .banner-font {
+      font-size: 40px !important;
+  }
+  }
+
+/* a {
+  color :#b34738 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color:#54985f !important;
+} */
+
+
+/* Header  */
+
+a.nav-link {
+  color: #ffd0b3;
+}
+
+
+/* Home Page */
+
+.home-background-container {
+  background-image: url('/home/home_banner.jpg');
+  width:100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+
+.our-dirc{   
+    height : 480px;
+    background : #c8594a;
+}
+
+.our-dirc-1 {
+  background:#b34738;
+}
+
+.our-dirc-2 {
+  background: #9f3729;
+}
+.our-dirc-3 {
+  background: #923022;
+}
+
+.our-dirc-4 {
+  background: #6e180c;
+}
+
+.parters-bg {
+  background: #ffd0b3;
+  padding-top: 250px;
+  margin-top: -200px;
+}
+
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  display: none;
+}
+
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  display: none;
+}
+
+/* Home page media */
+@media(max-width:767px) {
+  .our-dirc{
+      width:100% !important; 
+      height : auto;
+  }
+
+  .hide-mobile-view {
+      display: none !important;
+  }
+  .parters-bg {
+      background: #ffd0b3;
+      padding-top: 600px;
+      margin-top: -550px;
+  
+  }
+}
+/* Home page Media css end  */
+/* Home page css end */
+
+
+/* Number Counter Css */
+
+.count {
+    font-size: 45px;
+    color: #6e180c;
+}
+
+h2.title {
+    font-size : 18px;
+    font-family : 'Poppins Regular';
+    color : #00000059;
+}
+
+hr {
+    border: 2px solid #8F8F8F !important;
+}
+
+/* Number Counter Media */
+@media(max-width:767px) {
+    .count {
+        font-size: 36px;
+        color: #6e180c;
+    }
+    
+    h2.title {
+        font-size : 15px;
+        font-family : 'Poppins Regular';
+        color : #00000059;
+    }
+}
+
+/* about*/
+.about-background-container {
+  background-image: url('/assets/about/about_us_banner.jpg');
+  width:100%;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+/* Agri */
+
+.agri-background-container {
+  background-image: url('/assets/agri/agriculture_banner.jpg');
+  width:100%;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+.agri-hover-effect:hover {
+  transform: scale(1.1);
+}
+
+/* Noble Plastic Page*/
+
+.noble-background-container {
+  background-image: url('/assets/nobleplastic/noble_plastic_banner.jpg');
+  width:100%;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5) !important;
+
+}
+
+/* Fuzhio Covid */
+.fuzhiocovid-background-container {
+  background-image: url('/assets/fuzhiocovid/fuzhiocovid_banner.jpg');
+  width:100%;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5) !important;
+}  
